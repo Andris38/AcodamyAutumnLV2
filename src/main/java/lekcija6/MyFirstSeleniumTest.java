@@ -21,7 +21,7 @@ public class MyFirstSeleniumTest extends BaseTest{
     public void checkPageTitleTest() {
         driver = new ChromeDriver();
         driver.get("https://acodemy.lv/lv");
-        Assert.assertEquals(driver.getTitle(),"IT kursi Latvijā", "wrong page title");
+        Assert.assertEquals(driver.getTitle(),"IT kursi Latvijā", "Nepareizs Title");
 }
     @Test
     public void checkPageUrlTest(){
